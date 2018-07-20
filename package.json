@@ -1,0 +1,25 @@
+{
+  "name": "word-guess-game-commandline",
+  "version": "1.0.0",
+  "description": "Word Guessing Game ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/walidbillel/Word-Guess-Game-CommandLine.git"
+  },
+  "keywords": [
+    "node.js"
+  ],
+  "author": "Walid Boubguira",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/walidbillel/Word-Guess-Game-CommandLine/issues"
+  },
+  "homepage": "https://github.com/walidbillel/Word-Guess-Game-CommandLine#readme",
+  "dependencies": {
+    "inquirer": "^6.0.0"
+  }
+}
