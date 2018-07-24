@@ -1,19 +1,21 @@
-function Letter(keyEntered) {
+function Letter(character) {
 
-    this.keyEntered = keyEntered;
+    this.character = character;
     this.guessed = false;
 
     this.display = function () {
         if (this.guessed) {
-            return this.letter;
-        } else if (this.keyEntered === " ") {
-            this.guessed = true;
+            return " " + this.character;
         } else {
             return " _ ";
         }
     }
+
 }
 
+// var lettero = new Letter("s");
+
+// console.log(lettero.display());
 
 
 
