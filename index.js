@@ -1,6 +1,6 @@
 // Using inquirer npm and the word.js file to build the game
 var inquirer = require('inquirer')
-var Word = require('./Word.js');
+var Word = require('./word.js');
 
 // Creating an array for our words
 var hangManWordChoices = ["javascript", "node", "html", "css", "mysql", "jquery"];
@@ -84,6 +84,8 @@ function askLetters() {
 
 
 }
+
+
 
 // Call our startGame function to start playing
 startGame();
